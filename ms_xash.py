@@ -2,7 +2,7 @@ import socket
 import struct
 import time
 import re
-gamedir = msg
+gamedir = valve
 if len(gamedir) == 0:
 	gamedir = 'valve'
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
